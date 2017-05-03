@@ -8,12 +8,6 @@ export default class Layout extends React.Component {
 
     constructor(props) {
         super(props);
-        this.handleAddItem = this.handleAddItem.bind(this);
-        /*this.data = [
-            {id: 1, name: 'Rober Smart'},
-            {id: 2, name: 'John Doe'},
-            {id: 3, name: 'Lisa Ann'}
-        ];*/
         this.state = {
             data: []
         }

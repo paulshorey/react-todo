@@ -22,9 +22,6 @@ export default class Item extends React.Component {
     }
 
     render() {
-        if (this.state.check) {
-            return null;
-        }
         return (
             <li key={this.props.idx} onClick={this.handleClick} className={ this.state.check ? 'checked' : 'unchecked' }>{this.props.name}</li>
         );
